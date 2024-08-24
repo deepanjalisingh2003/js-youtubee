@@ -1,0 +1,25 @@
+// Prmitive
+
+// 7 types :String,Number,Boolean,null,undefined,Symbol,BigInt
+
+const id=Symbol('123')
+const anotherid=Symbol('123')
+console.log(id===anotherid);    //false
+//dynamically typed ---because dont need to declare datatype
+
+
+//Reference (Non primitive)
+
+
+//Array,Objects,Functions
+
+const heros=["shaktiman","doga"]
+let myobj={
+    name:"deepa",
+    age:22
+}
+
+
+ const myFunction = function(){
+console.log("Hello World");
+}
