@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+let score="33"
+console.log(typeof score);
+let value=Number(score)
+console.log(typeof score);
+=======
 let score="33"
 
 console.log(typeof score);
@@ -20,4 +26,4 @@ console.log(booleanIsLogged);
 
 let somenum=33
 let stringnum=String(somenum);
-console.log( typeof stringnum);
+console.log(typeof stringnum);
